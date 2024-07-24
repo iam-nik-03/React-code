@@ -7,7 +7,7 @@ function Product() {
         <div className="product" >
             <p>PRODUCT</p>
             <p>DESCRIPTION</p>
-         
+            <price />
         </div>
     );
 }
