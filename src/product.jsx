@@ -15,9 +15,7 @@ function Product({ Title, price, features }) {
             {/* or */}
             <p>{features.map((el) => <li>{el}</li>)}</p>
             {price>100000? <p style={style2}>"Discount of 10%"</p> : null}
-        
-
-        </div>
+</div>
     );
 }
 export default Product;
