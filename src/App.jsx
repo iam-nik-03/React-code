@@ -1,6 +1,6 @@
 import "./App.css";
 import Title from "./Title.jsx";
-import ProductTab from "./ProductTab.jsx";
+import ProductTab from "./product/ProductTab.jsx";
 import MessageBox from "./Activity/MessageBox.jsx";
 
 function App() {
