@@ -1,13 +1,12 @@
 import "./App.css";
-import Title from "./Title.jsx";
-import ProductTab from "./product/ProductTab.jsx";
-import MessageBox from "./Activity/MessageBox.jsx";
+
+import ProductTab from "./AmazonCard/ProductTab.jsx";
+
 
 function App() {
   return(
     <>
-      <MessageBox userName="Nik" textColor="yellow"/>
-      <MessageBox userName="Om" textColor="blue"/>
+   
        <ProductTab />
 
     </>
