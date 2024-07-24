@@ -1,4 +1,4 @@
- function price() {
+export default function price() {
     return (
         <div>
             <p>oldprrice</p>
@@ -8,4 +8,3 @@
 
     
 }
-export default price;
